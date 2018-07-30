@@ -35,6 +35,8 @@ gem 'faker'
 gem 'bcrypt', '~> 3.1.7'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+gem 'carrierwave'
+gem 'mini_magick'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
