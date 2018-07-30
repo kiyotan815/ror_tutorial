@@ -1,5 +1,5 @@
 FROM ruby:2.4.3
-RUN apt-get update -qq && apt-get install -y build-essential nodejs libpq-dev vim
+RUN apt-get update -qq && apt-get install -y build-essential nodejs libpq-dev vim ImageMagick
 RUN mkdir /myapp
 ENV RAILS_ENV=production RACK_ENV=production
 WORKDIR /myapp
